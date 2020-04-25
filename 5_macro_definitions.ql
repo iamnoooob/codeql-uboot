@@ -1,4 +1,4 @@
 import cpp
-from Function f
-where f.getName().regexpMatch("ntoh.*")
-select f
+from Macro m
+where m.getName().regexpMatch("ntoh.*")
+select m
